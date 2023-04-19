@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>John Pittman Gibson</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+  <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud">
+    <div class="title-text">
+      <h1 id="top_container_h1">John Dalton Gibson</h1>
+	  <h2>Candidate for Master of Science in Telecommunications, American InterContinental University (AIU)</h2>
+      <h3 id="top_container_h2">A <span class="pro">pro</span>grammer, Fullstack Developer, Electrical/Telecommunications Engineer, and IT Specialist</h3>
+    </div>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud">
+  </div>
+
+  <div class="middle-container">
+    <div class="profile">
+      <img src="images/dalton.jpg" alt="dalton-profile-img" width="250" height="250">
+      <h2>Brief Profile</h2>
+      <p class="intro">John Pittman Gibson (alias - Rabi Akalimat, an Arabic name coined by himself meaning "Lord of Words", also), also known as John Dalton Gibson by his followers, <span id="dots">...</span><span id="more-about-me">was born on October 2, 1999. He has bachelor of science in Electrical Engineering from the William V.S. Tubman University. He's a Liberia National and he originates from River Gee County and currently resides in Paynesville, Montserrado County. He has certifications in electrical wiring, linux operating systems, computer networking, mobile app development, fullstack development, leadership, and International Model United Nations Diplomacy and Membership. Apart from college, he's a graduate of Our Lady of Fatima Highschool located in Harper City (Maryland, Liberia), Jonah Togba School of Leadership and Development (Certificate in Leadership) and the Caritas Marginalized Youth Program Technical School (One Year Certificate in Electrical Residential and Commercial Wiring). He is an idolizer of technology, natural/applied Sciences and mathematics but he also appreciates the arts. He has published 1 article and poems on different publishing sites such as spillword, allpoetry, We Write Liberia magazine, etc. </span></p>
+	  
+	  <button onclick="myFunction()" id="myBtn">Read more</button>
+	</div>
+    <hr>
+    <div class="skills">
+      <h2>Skills</h2>
+	  <!-- First Skill -->
+      <div class="skill-row"> 
+        <img class="code-img" src="images/coding.jpg" alt="code-img">
+
+        <h3>Web and Software Development</h3>
+        <p>I am an electrical engineer but I started developing passion for coding when I saw how exciting, beneficiary, and innovative programming was. As the world evolves, everything is becoming digital and intelligent. The secret behind this is development of software to be embedded in or installed on a hardware. I know frontend development, backend development, android, iOS, Command Lind, and python.</p>
+		
+      </div >
+	  
+	  <!-- Second Skill -->
+	  <div class="skill-row">
+		<img class="code-img" src="images/networking.jpg" alt="code-img">
+
+        <h3>Computer Networking</h3>
+		<p>If I were to add a minor to my major, computer science and engineering would have been that course. I developed passion for computer networking because because of it's closeness to my major field (telecommunications). Like programming, it is exciting when you're are building and configuring a network. My specific skills under this broad field are, building and configuring, LAN, VLAN, and WLAN, IP subnetting, CCNA routing and switching, Linux Operating Systems, windows software update service server operations, and Microsoft software center configuration management.</p>
+	  </div>
+	  
+	  <!-- Third Skill -->
+	  <div class="skill-row">
+	  <img class="code-img" src="images/wiring.jpg" alt="code-img">
+	  
+		<h3>Residential Wiring</h3>
+		<p>I learned this skill when I was in my freshman year. Wiring is an essential skill that makes one marketable. Atleast, I have 5 years of part-time and daily hiring experience in this skill.</p>
+	  </div>
+	  
+      <div class="skill-row">
+        <img class="chilli-img" src="images/telecommunications.jpg" alt="chillies-img">
+
+        <h3>What I am mostly passionate about?</h3>
+		<h2><strong>Telecommunications - Mobile Network<strong></h2>
+        <p>Without telecommunications, we cannot communicate with our family and friends over long distances. We also won't be able to get information about daily happenings arouind the world. I layed more emphasis on it during my bachelor's program. I have atleast one and half year experience in this field. I am intending to futher my studies in this field.</p>
+
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>For hiring, contracting, consultancy, and mentorship!</h3>
+      <p class="contact-message">If you need any help or if you have any contract that falls within the scope of my education, skills, and experiences, contact me.</p>
+      <a class="btn" href="mailto:ilove@hotwings.com">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/angela-yu-963a584b/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/yu_angela">Twitter</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    <p class="copyright">© 2018 Angela Yu @ The App Brewery.</p>
+  </div>
+  
+  <script>
+	function myFunction() {
+	var dots = document.getElementById("dots");
+	var moreText = document.getElementById("more-about-me");
+	var btnText = document.getElementById("myBtn");
+
+	if (dots.style.display === "none") {
+		dots.style.display = "inline";
+		btnText.innerHTML = "Read more";
+		moreText.style.display = "none";
+	} else {
+		dots.style.display = "none";
+		btnText.innerHTML = "Read less";
+		moreText.style.display = "inline";
+		}
+}
+  </script>
+</body>
+
+</html>
